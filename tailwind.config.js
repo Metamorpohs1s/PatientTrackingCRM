@@ -4,7 +4,7 @@ import forms from '@tailwindcss/forms';
 /** @type {import('tailwindcss').Config} */
 export default {
 
-    // darkMode: 'light',
+
 
     content: [
         './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
@@ -12,7 +12,7 @@ export default {
         './resources/views/**/*.blade.php',
         'node_modules/preline/dist/*.js',
     ],
-
+    darkMode: 'class',
     theme: {
         extend: {
             fontFamily: {
